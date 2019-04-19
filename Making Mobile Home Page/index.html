@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+    	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="dist/css/swiper.min.css">
+		<title>首页</title>
+		<script>
+        var pixelRatio = 1 / window.devicePixelRatio; //还原设备的真实分辨率；
+        //devicePixelRatio设备的像素比；
+
+        document.write('<meta name="viewport" content="width=device-width,initial-scale=' + pixelRatio + ',minimum-scale=' + pixelRatio + ',maximum-scale=' + pixelRatio + '" />');
+        var html = document.getElementsByTagName('html')[0];
+        var pageWidth = html.getBoundingClientRect().width;
+        html.style.fontSize = pageWidth / 10 + "px";
+    </script>
+	<script src="dist/js/swiper.min.js"></script>
+    <style>
+    a{    }
+    </style>
+	</head>
+	<body>
+		
+		<div class="header">
+			<p>上海</p>
+			<i><img src="imgs/1.png" alt=""></i>
+			<input type="text" value="搜“新西兰试试”">
+			<span><img src="imgs/sousuo.png" alt=""></span>
+		</div>
+		<div class="none">
+			
+		</div>
+			<div class="swiper-container">
+			    <div class="swiper-wrapper">
+			      <div class="swiper-slide"><img src="imgs/banner.png" alt=""></div>
+			      <div class="swiper-slide"><img src="imgs/banner2.png" alt=""></div>
+			      <div class="swiper-slide"><img src="imgs/banner.png" alt=""></div>
+			</div>
+			</div>
+			    <!-- Add Pagination -->
+			<div class="swiper-pagination"></div>
+    	<script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+	<div class="body">
+			<div class="jingdian">
+				<p>热门景点</p>
+				<div id="tab">
+					<ul id="list">
+						<li class="active">上海</li>
+						<li>成都</li>
+						<li>北京</li>
+						<li>三亚</li>
+					</ul>
+					<div id="content">
+						<div class="show">
+							<ul>
+								<li>
+									<span><a href="xiangqing.html"><img src="imgs/shangh3.png" alt=""></a></span>
+									<a href="xiangqing.html">古镇朱家角</a>
+									<p>逛沪上第一明清北大街</p>
+								</li>
+								<li>
+									<span><a href="xiangqing.html"><img src="imgs/shangh1.png" alt=""></a></span>
+									<a href="xiangqing.html">上海迪士尼乐园</a>
+									<p>Disney 家庭旅游必去</p>
+								</li>
+								<li>
+									<span><a href=""><img src="imgs/shangh2.png" alt="xiangqing.html"></a></span>
+									<a href="xiangqing.html">东方明珠电视塔</a>
+									<p>感受高考云端漫步上海</p>
+								</li>
+							</ul>
+						</div>
+						<div>
+							<ul>
+								<li>
+									<span><a href="xiangqing.html"><img src="imgs/shangh2.png" alt=""></a></span>
+									<a href="xiangqing.html">东方明珠电视塔</a>
+									<p>感受高考云端漫步上海</p>
+								</li>
+								<li>
+									<span><a href="xiangqing.html"><img src="imgs/shangh1.png" alt=""></a></span>
+									<a href="xiangqing.html">上海迪士尼乐园</a>
+									<p>Disney 家庭旅游必去</p>
+								</li>
+								<li>
+									<span><a href="xiangqing.html"><img src="imgs/shangh3.png" alt=""></a></span>
+									<a href="xiangqing.html">古镇朱家角</a>
+									<p>逛沪上第一明清北大街</p>
+								</li>
+							</ul>
+						</div>
+						<div>
+							<ul>
+								<li>
+									<span><a href="xiangqing.html"><img src="imgs/shangh1.png" alt=""></a></span>
+									<a href="xiangqing.html">上海迪士尼乐园</a>
+									<p>Disney 家庭旅游必去</p>
+								</li>
+								<li>
+									<span><a href="xiangqing.html"><img src="imgs/shangh2.png" alt=""></a></span>
+									<a href="xiangqing.html">东方明珠电视塔</a>
+									<p>感受高考云端漫步上海</p>
+								</li>
+								<li>
+									<span><a href="xiangqing.html"><img src="imgs/shangh3.png" alt=""></a></span>
+									<a href="xiangqing.html">古镇朱家角</a>
+									<p>逛沪上第一明清北大街</p>
+								</li>
+							</ul>
+						</div>
+						<div>
+							<ul>
+								<li>
+									<span><a href="xiangqing.html"><img src="imgs/shangh1.png" alt=""></a></span>
+									<a href="xiangqing.html">上海迪士尼乐园</a>
+									<p>Disney 家庭旅游必去</p>
+								</li>
+								<li>
+									<span><a href="xiangqing.html"><img src="imgs/shangh3.png" alt=""></a></span>
+									<a href="xiangqing.html">古镇朱家角</a>
+									<p>逛沪上第一明清北大街</p>
+								</li>
+								<li>
+									<span><a href="xiangqing.html"><img src="imgs/shangh2.png" alt=""></a></span>
+									<a href="xiangqing.html">东方明珠电视塔</a>
+									<p>感受高考云端漫步上海</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<script>
+		// var list=document.getElementById('list')
+		// var content=document.getElementById('content')
+		// var oli=list.getElementsByTagName('li')
+		// var li_content=	content.getElementsByTagName('div')
+		var oli=document.getElementById('list').getElementsByTagName('li')	
+		var li_content=	document.getElementById('content').getElementsByTagName('div')
+		
+		for(var i=0;i<oli.length;i++){
+
+			oli[i].index=i
+
+			oli[i].onmouseover=function(){
+				
+				//首先获取到当前被点击li的索引
+				//alert(this.index)
+
+				//点击后让相应的div显示到当前
+				for(var j=0;j<li_content.length;j++){
+					oli[j].className="";
+					li_content[j].style.display='none'
+				}
+
+				li_content[this.index].style.display='block';
+				oli[this.index].className="active";
+				
+			}
+		}
+	</script>
+			<div class="newplay">
+				<ul>
+					<p>城市新玩法</p>
+					<a href="#">查看更多推荐></a>
+				</ul>
+				<a href="xiangqing.html"><img src="imgs/banner2.png" alt=""></a>
+				<div class="shangh">
+					<p>老灵的里弄上海</p>
+					<p>果里弄是一副画卷，展开它，你看到的会是上海人生动的邻里日常。 里弄见证着这个城市的百年风雨，也承载着几代人对“家”的记忆</p>
+				</div>
+				<a href="xiangqing.html"><img src="imgs/banner3.jpg" alt=""></a>
+				<div class="shangh2">
+					<p>上海迪士尼乐园</p>
+					<p>迪士尼主题乐园——为每一位游客创造独特体验与家人和朋友一起在魔法世界点亮心中奇梦！</p>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<ul>
+				<li><a href=""><span><img src="imgs/shouye.png" alt=""></span><p>首页</p></a></li>
+				<li><a href=""><span><img src="imgs/mudi.png" alt=""></span><p>目的地</p></a></li>
+				<li><a href=""><span><img src="imgs/faxian.png" alt=""></span><p>发现</p></a></li>
+				<li><a href=""><span><img src="imgs/wo.png" alt=""></span><p>我</p></a></li>
+			</ul>
+		</div>	
+	</body>
+	</html>	

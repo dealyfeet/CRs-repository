@@ -1,0 +1,310 @@
+@charset "UTF-8";
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 0.21333333rem;
+  font-family: Arial, '微软雅黑';
+  background: white;
+  padding-bottom: 1.4666666667rem; }
+
+a {
+  text-decoration: none; }
+
+input {
+  -webkit-appearance: none; }
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none; }
+
+img {
+  min-width: 100%;
+  max-width: 100%;
+  border: none;
+  vertical-align: middle; }
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+div {
+  box-sizing: border-box; }
+
+.header {
+  width: 10rem;
+  height: 1.1333333333rem;
+  background: white;
+  z-index: 100;
+  position: fixed;
+  top: 0px; }
+
+.header > p {
+  width: 0.6666666667rem;
+  height: 0.32rem;
+  font-size: 0.32rem;
+  float: left;
+  margin-left: 0.4rem;
+  margin-top: 0.36rem; }
+
+.header > i {
+  display: block;
+  width: 0.24rem;
+  height: 0.2rem;
+  float: left;
+  margin-top: 0.4666666667rem; }
+
+.header > input {
+  width: 8rem;
+  height: 0.8666666667rem;
+  border: 0.0133333333rem solid #eaeaea;
+  border-radius: 5px;
+  margin-top: 0.0933333333rem;
+  margin-left: 0.2rem;
+  font-size: 0.2933333333rem;
+  color: #8f8e93;
+  text-align: center; }
+
+.header > span {
+  width: 0.4rem;
+  height: 0.3066666667rem;
+  display: block;
+  position: absolute;
+  top: 0.4rem;
+  left: 3.8666666667rem; }
+
+.none {
+  width: 10rem;
+  height: 1.1333333333rem; }
+
+.swiper-container {
+  width: 10rem;
+  height: 3.5066666667rem;
+  margin-top: 1.1333333333rem; }
+
+.swiper-pagination {
+  margin-top: -0.4rem;
+  margin-left: 4.7333333333rem; }
+
+.body {
+  width: 10rem;
+  background: white;
+  margin-top: -0.4rem; }
+
+.jingdian {
+  width: 9.3333333333rem;
+  height: 5.0666666667rem;
+  margin: auto auto;
+  padding-top: 0.2666666667rem;
+  margin-bottom: 0.4rem; }
+
+.jingdian > p {
+  height: 0.5333333333rem;
+  font-size: 0.3466666667rem;
+  line-height: 0.5333333333rem; }
+
+#tab {
+  margin-top: -0.2666666667rem; }
+
+#list {
+  list-style-type: none;
+  height: 0.5333333333rem;
+  font-size: 0.32rem; }
+
+#list li {
+  width: 0.7333333333rem;
+  margin-right: 0.0666666667rem;
+  height: 0.5333333333rem;
+  line-height: 0.5333333333rem;
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+  float: left;
+  cursor: pointer;
+  color: #a8a8a8; }
+
+#content {
+  margin-top: 0.0666666667rem; }
+
+#content div {
+  width: 9.3333333333rem;
+  height: 3.4666666667rem;
+  display: none; }
+
+#content div.show {
+  display: block; }
+
+#list li:hover {
+  color: #56c083; }
+
+#list li.active {
+  color: #56c083; }
+
+#list li:hover {
+  border-bottom: 0.0266666667rem solid #56c083; }
+
+#list li.active {
+  border-bottom: 0.0266666667rem solid #56c083; }
+
+#content > div > ul {
+  width: 9.3333333333rem;
+  height: 3.4666666667rem;
+  display: flex;
+  justify-content: space-between; }
+
+#content > div > ul > li {
+  width: 2.9333333333rem;
+  height: 3.4666666667rem; }
+
+#content > div > ul > li > span {
+  width: 2.9333333333rem;
+  height: 2.4933333333rem;
+  display: block; }
+
+#content > div > ul > li > span > a {
+  width: 2.9333333333rem;
+  height: 2.4933333333rem;
+  display: block; }
+
+#content > div > ul > li > a {
+  width: 2.9333333333rem;
+  font-size: 0.2933333333rem;
+  display: block;
+  color: black;
+  text-align: center;
+  margin-top: 0.1333333333rem; }
+
+#content > div > ul > li > p {
+  width: 2.9333333333rem;
+  font-size: 0.2933333333rem;
+  color: #a2a2a2;
+  text-align: center;
+  margin-top: 0rem; }
+
+.newplay {
+  width: 9.3333333333rem;
+  height: 10.9333333333rem;
+  margin: auto auto; }
+
+.newplay > ul {
+  height: 0.5333333333rem;
+  font-size: 0.3466666667rem; }
+
+.newplay > ul > p {
+  height: 0.5333333333rem;
+  width: 6.6666666667rem;
+  font-size: 0.3466666667rem;
+  line-height: 0.8rem;
+  float: left;
+  margin-top: 0; }
+
+.newplay > ul > a {
+  font-size: 0.2933333333rem;
+  color: #8f8e93;
+  display: block;
+  height: 0.5333333333rem;
+  width: 2rem;
+  line-height: 0.5333333333rem;
+  float: left;
+  margin-left: 0.6666666667rem; }
+
+.newplay > a {
+  width: 9.3333333333rem;
+  height: 3.5066666667rem;
+  display: block; }
+
+.shangh {
+  width: 8.5333333333rem;
+  margin-top: 0.4666666667rem;
+  margin-left: 0.1333333333rem; }
+
+.shangh > p:nth-child(1) {
+  font-size: 0.2933333333rem; }
+
+.shangh > p:nth-child(2) {
+  font-size: 0.2733333333rem;
+  color: #888888;
+  margin-top: -0.2666666667rem; }
+
+.shangh2 {
+  width: 8.5333333333rem;
+  margin-top: 0.4666666667rem;
+  margin-left: 0.1333333333rem;
+  padding-top: 0rem; }
+
+.shangh2 > p:nth-child(1) {
+  font-size: 0.2933333333rem;
+  margin-top: -0.32rem; }
+
+.shangh2 > p:nth-child(2) {
+  font-size: 0.2733333333rem;
+  color: #888888;
+  margin-top: -0.2666666667rem; }
+
+.footer {
+  width: 10rem;
+  height: 1.2rem;
+  background: #efefef;
+  position: fixed;
+  bottom: 0;
+  z-index: 100; }
+
+.footer > ul {
+  width: 8.1333333333rem;
+  height: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  margin: auto auto; }
+
+.footer > ul > li {
+  width: 0.7333333333rem;
+  height: 1.2rem; }
+
+.footer > ul > li > a {
+  width: 0.7333333333rem;
+  height: 1.2rem;
+  display: block; }
+
+.footer > ul > li > a > p {
+  width: 0.7333333333rem;
+  text-align: center;
+  color: #a5a5a5;
+  margin-top: 0.0666666667rem; }
+
+.footer > ul > li:nth-child(1) > a > p {
+  margin-left: -0.04rem;
+  color: #56c083; }
+
+.footer > ul > li:nth-child(2) > a > p {
+  margin-left: -0.1333333333rem; }
+
+.footer > ul > li:nth-child(3) > a > p {
+  margin-left: 0.0666666667rem; }
+
+.footer > ul > li:nth-child(4) > a > p {
+  margin-left: -0.1333333333rem; }
+
+.footer > ul > li > a > span {
+  margin-top: 0.1333333333rem; }
+
+.footer > ul > li:nth-child(1) > a > span {
+  width: 0.6666666667rem;
+  height: 0.6133333333rem;
+  display: block; }
+
+.footer > ul > li:nth-child(2) > a > span {
+  width: 0.44rem;
+  height: 0.6133333333rem;
+  display: block; }
+
+.footer > ul > li:nth-child(3) > a > span {
+  width: 0.6266666667rem;
+  height: 0.6133333333rem;
+  display: block; }
+
+.footer > ul > li:nth-child(4) > a > span {
+  width: 0.4666666667rem;
+  height: 0.56rem;
+  display: block; }
+
+/*# sourceMappingURL=index.css.map */
