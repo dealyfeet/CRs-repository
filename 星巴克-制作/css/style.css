@@ -1,0 +1,340 @@
+body{overflow-x: hidden;}
+.nav{
+    height: 974px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    border-radius: 0;
+}
+.navbar-header{
+    float: none;
+}
+.navbar-default .navbar-toggle{
+    border-color: transparent;
+    padding-top: 25px;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background: transparent;
+}
+.logo{
+    width: 36px;
+    height: 36px;
+    padding: 24px;
+    box-sizing: content-box;
+}
+.logo img{
+    width: 100%;
+}
+.navbar-header .wenzi{
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+    padding-top: 31px;
+}
+.main{
+    width: 100%;
+    height: 886px;
+    position: relative;
+}
+.main .title{
+    height: 135px;
+    letter-spacing: 0.4px;
+    position: absolute;
+    top: 40%;
+    left: 24%;
+}
+.main .title p{
+font-size: 26px;
+margin-bottom: 24px;
+font-weight: 600;
+}
+.main .title .title-btn a{
+    color: #00A862;
+    text-decoration: none;
+}
+.main .title .title-btn .sign-in{
+    float: left;
+    margin-right: 24px;
+    padding: 3px 0;
+}
+.main .title .title-btn .zhuce{
+    padding: 2px 12px;
+    border: 1px solid #00A862;
+    border-radius: 48px;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    margin-top: 3px;
+}
+.section{
+    float: right;
+}
+section .lunbo{
+    background: #F7F7F7;
+}
+section .lunbo img{
+    width: 100%;
+}
+section>.list{
+    width: 100%;
+    background: #F7F7F7;
+    padding: 24px 12px;
+}
+section>.row .tp img{
+    width: 100%;
+    box-shadow: 2px 2px 1px #ccc;
+    transition: all 0.2s ease;
+}
+section>.list a{
+    transition: all 0.2s ease;
+}
+section>.list a:hover img{
+    box-shadow: 0 2px 2px 2px #ccc;
+
+}
+section>.list a:hover{
+    transform: translate3d(0, -4px, 0);
+}
+/* 星享俱乐部 */
+section .club .main{
+    margin-left: auto;
+    margin-right: auto;
+    height: 290px;
+}
+section .club .main .tit{
+    float: left;
+    padding: 36px 0;
+    height: 248px;
+}
+section .club .main .tit h2{
+    font-size: 22px;
+}
+section .club .main .tit .light{
+    color: rgba(0, 0, 0, 0.56);
+    padding: 24px 0;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+section .club .main .tit .light a{
+    color: #C2A661;
+    text-decoration: none;
+
+}
+section .club .main .tit .club-btn a{
+    border: 1px solid #00A862;
+    border-radius: 48px;
+    box-sizing: border-box;
+    color: #00A862;
+    display: inline-block;
+    padding: 6px 18px;
+    text-decoration: none;
+}
+section .club .main .images{
+    padding: 36px 0;
+    text-align: right;
+    margin-top: 54px;
+}
+section .club .main .images img{
+    height: 72px;
+}
+/* 星巴克精选 */
+section .selected{
+    background: #F7F7F7;
+    padding: 36px 0;
+}
+section .selected .wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+section .selected .wrapper h2{
+    font-size: 22px;
+}
+section .selected .wrapper p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.56);
+}
+section .selected .wrapper .selected-list{
+    margin-top: 68px;
+    display: flex;
+}
+section .selected .wrapper .selected-list .jx-wrap{
+    width: 744px;
+    margin: 0 auto;
+}
+section .selected .wrapper .selected-list .jingxuan{
+    padding: 12px;
+}
+section .selected .wrapper .selected-list .jingxuan a{
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    position: relative;
+    padding: 0 6px;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+section .selected .wrapper .selected-list .jingxuan a img{
+    height: 72px;
+    margin-top: -32px;
+}
+section .selected .wrapper .selected-list .jingxuan a .tit{
+    margin: 24px 0 8px;
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 600;
+}
+section .selected .wrapper .selected-list .jingxuan a .zi{
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 14px;
+    line-height: 24px;
+}
+section .selected .wrapper .selected-list .jingxuan a .btn{
+    font-size: 12px;
+    color: #C2A661;
+    opacity: 0.7;
+}
+section .selected .wrapper .selected-list .jingxuan a:hover{
+    box-shadow: 0 1px 3px 2px rgba(0, 0, 0, 0.12);
+    transform: translate3d(0, -4px, 0);
+}
+section .selected .wrapper .selected-list .jingxuan a:hover .btn{
+    color: #887035;
+}
+/* 咖啡星讲堂 */
+section .forum{
+    text-align: center;
+    padding: 20px 0;
+}
+section .forum h2{
+    font-size: 22px;
+}
+section .forum p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.56);
+}
+section .forum .swiper-wrapper{
+    margin-left: -24%;
+}
+section .forum .swiper-slide{
+    flex-direction: column;
+    height: 226px;
+    width: 290px;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.12);
+    justify-content: flex-start;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+section .forum .swiper-slide .tp{
+    height: 168px;
+    width: 290px;
+    background: url(../img/coffeehouse-coffee-cultivation-kv.jpg) no-repeat center;
+    background-size: cover;
+}
+section .forum .swiper-wrapper .swiper-slide:nth-child(2) .tp{
+    background: url(../img/coffeehouse-4-fundamentals-kv.jpg) no-repeat center;
+    background-size: cover;
+}
+section .forum .swiper-wrapper .swiper-slide:nth-child(3) .tp{
+    background: url(../img/coffeehouse-roast-story-kv.jpg) no-repeat center;
+    background-size: cover;
+}
+section .forum .swiper-wrapper .swiper-slide:nth-child(4) .tp{
+    background: url(../img/coffeehouse-pour-over-kv.jpg) no-repeat center;
+    background-size: cover;
+}
+section .forum .swiper-slide .tag{
+    font-size: 14px;
+    background: #C2A661;
+    color: #FFF;
+    position: absolute;
+    padding: 4px 12px;
+    left: 0px;
+    top: 6px;
+}
+section .forum .swiper-slide p{
+    width: 100%;
+    text-align: left;
+    padding: 20px 20px 0;
+}
+section .forum .swiper-slide:hover{
+    box-shadow: 0 1px 3px 2px rgba(0, 0, 0, 0.12);
+    transform: translate3d(0, -4px, 0);
+}
+@media (min-width: 768px){
+    .navbar-toggle {
+        display: block;
+    }
+}
+@media (max-width: 992px){
+    .main .title{
+        width: 100%;
+        top: 0;
+        left: 3%;
+    }
+    .main .title p{
+        margin-bottom: 10px;
+    }
+    .nav{
+        height: 183px;
+        margin-bottom: 0;
+        border-radius: 0;
+        position: initial;
+    }
+    .section{
+        float: initial;
+    }
+    section .forum .swiper-slide{
+        width: 290px;
+    }
+    .row .col-md-8{
+        padding: 0;
+    }
+}
+
+@media (max-width: 768px){
+    .nav header{
+        display: none;
+    }
+    .nav{
+        height: 62px;
+        padding: 16px 16px 0 16px;
+    }
+    .main .title .title-btn{
+        display: none;
+    }
+    .section .list a{
+        padding: 0;
+    }
+    section .club .main{
+        height: 356px;
+    }
+    section .club .main .tit{
+        text-align: center;
+        float: none;
+    }
+    section .club .main .images{
+        text-align: center;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    section .selected .wrapper .selected-list .jingxuan:nth-child(3){
+        margin-top: 40px;
+    }
+    section .selected .wrapper .selected-list .jingxuan:nth-child(4){
+        margin-top: 40px;
+    }
+    section .forum .swiper-slide{
+        width: 290px;
+    }
+}
+.row{margin: 0;padding: 0;}
+.col-md-8,.col-md-12{margin: 0;padding: 0;}

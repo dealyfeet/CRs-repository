@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/swiper.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/jquery-3.1.1.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <title>星巴克</title>
+</head>
+<body>
+  <div class="wrap row container-fluid">
+    <div class="nav navbar col-md-4 navbar-default">
+      <header class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand logo" href="#"><img src="./img/logo.svg" alt=""></a>
+          <a class="navbar-brand wenzi" href="#">门店</a>
+          <a class="navbar-brand wenzi" href="#">我的账户</a>
+          <a class="navbar-brand wenzi" href="#">菜单</a>
+        </div>
+      </header>
+      <div class="main">
+        <div class="title">
+          <p>心情惬意，来杯咖啡吧 ☕</p>
+          <div class="title-btn">
+            <a href="#" class="sign-in">
+              <img src="./img/icon-account.svg" alt="">
+              <span>登录</span>
+            </a>
+            <a href="#" class="zhuce">注册</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="col-md-8 section">
+      <!-- 轮播图 -->
+      <div class="row">
+        <div class="lunbo col-md-12">
+          <!-- Swiper -->
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img class="hidden-xs" src="./img/banner1.jpg" alt="">
+                <img class="visible-xs-block" src="./img/kv-1-mobile.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img class="hidden-xs" src="./img/banner2.jpg" alt="">
+                <img class="visible-xs-block" src="./img/kv-2-mobile.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img class="hidden-xs" src="./img/banner3.jpg" alt="">
+                <img class="visible-xs-block" src="./img/kv-3-mobile.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img class="hidden-xs" src="./img/banner4.jpg" alt="">
+                <img class="visible-xs-block" src="./img/kv-4-mobile.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img class="hidden-xs" src="./img/banner5.jpg" alt="">
+                <img class="visible-xs-block" src="./img/kv-5-icecream-mobile.jpg" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img class="hidden-xs" src="./img/banner6.jpg" alt="">
+                <img class="visible-xs-block" src="./img/kv-delivery-banner-mobile-0408.jpg" alt="">
+              </div>
+            </div>
+            <!-- Add Pagination -->
+            <!-- <div class="swiper-pagination"></div> -->
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+  
+          <!-- Swiper JS -->
+          <script src="./js/swiper.min.js"></script>
+  
+          <!-- Initialize Swiper -->
+          <script>
+            var swiper = new Swiper('.swiper-container', {
+              spaceBetween: 30,
+              centeredSlides: true,
+              autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+              },
+              pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+              },
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              },
+            });
+          </script>
+        </div>
+      </div>
+      <div class="row list">
+        <div class="col-md-12">
+          <div class="row">
+            <a href="#" class="col-sm-4 col-md-4 tp"><img src="./img/tmall-0409-cn.jpg" alt=""></a>
+            <a href="#" class="col-sm-4 col-md-4 tp"><img src="./img/starbucks-design-studio-web-china.jpg" alt=""></a>
+            <a href="#" class="col-sm-4 col-md-4 tp"><img src="./img/homepage-career-cn.jpg" alt=""></a>
+          </div>
+        </div>
+      </div>
+      <!-- 星享俱乐部 -->
+      <div class="club row">
+        <div class="col-md-12">
+          <div class="main row">
+            <div class="tit col-md-4 col-sm-4 col-md-offset-2 col-sm-offset-2">
+              <h2>星享俱乐部</h2>
+              <p class="light">开启您的星享之旅，星星越多、会员等级越高、好礼越丰富。<a href="#">了解更多 ›</a></p>
+              <p class="club-btn">
+                <a href="#">注册</a>
+                <a href="#">登录</a>
+              </p>
+            </div>
+            <div class="images col-md-4 col-sm-4"><img src="./img/logo-msr-new.svg" alt=""></div>
+          </div>
+        </div>
+      </div>
+      <!-- 星巴克精选 -->
+      <div class="selected row">
+        <div class="wrapper col-md-12">
+          <h2>星巴克精选</h2>
+          <p>在星巴克天猫旗舰店发现更多咖啡心意</p>
+          <div class="selected-list row">
+            <div class="col-md-12 jx-wrap">
+              <div class="jingxuan col-md-3 col-sm-3 col-xs-6">
+                <a href="#">
+                  <img src="./img/tmall-card-01.png" alt="">
+                  <p class="tit">会员星礼包</p>
+                  <p class="zi">星享卡新升级<br>更多心意好礼</p>
+                  <p class="btn">了解更多 ›</p>
+                </a>
+              </div>
+              <div class="jingxuan col-md-3 col-sm-3 col-xs-6">
+                <a href="#">
+                  <img src="./img/tmall-card-02.png" alt="">
+                  <p class="tit">星礼卡</p>
+                  <p class="zi">用一份心礼<br>让心意相随</p>
+                  <p class="btn">了解更多 ›</p>
+                </a>
+              </div>
+              <div class="jingxuan col-md-3 col-sm-3 col-xs-6">
+                <a href="#">
+                  <img src="./img/tmall-eticket.png" alt="">
+                  <p class="tit">电子产品券</p>
+                  <p class="zi">心意<br>从这一杯开始</p>
+                  <p class="btn">了解更多 ›</p>
+                </a>
+              </div>
+              <div class="jingxuan col-md-3 col-sm-3 col-xs-6">
+                <a href="#">
+                  <img src="./img/tmall-reserve.png" alt="">
+                  <p class="tit">咖啡生活</p>
+                  <p class="zi">星巴克<br>用心制作</p>
+                  <p class="btn">了解更多 ›</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 咖啡星讲堂 -->
+      <div class="forum row">
+        <h2>1912 派克街 | 咖啡星讲堂</h2>
+        <p>了解更多星巴克咖啡文化</p>
+        <div class="forum-list">
+          <!-- Swiper -->
+          <div class="swiper-container slide-list">
+            <div class="swiper-wrapper">
+              <a href="#" class="swiper-slide">
+                <div class="tp"></div>
+                <span class="tag">咖啡知识</span>
+                <p>咖啡的起源与培植</p>
+              </a>
+              <a href="#" class="swiper-slide">
+                <div class="tp"></div>
+                <span class="tag">咖啡品鉴</span>
+                <p>咖啡调制</p>
+              </a>
+              <a href="#" class="swiper-slide">
+                <div class="tp"></div>
+                <span class="tag">咖啡知识</span>
+                <p>咖啡烘焙</p>
+              </a>
+              <a href="#" class="swiper-slide">
+                <div class="tp"></div>
+                <span class="tag">咖啡品鉴</span>
+                <p>手冲咖啡</p>
+              </a>
+            </div>
+            <!-- Add Pagination -->
+            <!-- <div class="slide-list-pagination"></div> -->
+          </div>
+
+          <!-- Swiper JS -->
+          <script src="./js/swiper.min.js"></script>
+
+          <!-- Initialize Swiper -->
+          <script>
+            var swiper = new Swiper('.slide-list', {
+              slidesPerView: 4,
+              spaceBetween: 30,
+              centeredSlides: true,
+              pagination: {
+                el: '.slide-list-pagination',
+                clickable: true,
+              },
+            });
+            $('.swiper-slide').css({
+              'width':'290px'
+            })
+          </script>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
